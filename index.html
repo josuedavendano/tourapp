@@ -1,0 +1,127 @@
+<html>
+
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBC2JOrK12TMk-VwQYuD-gMjp1ozLvVJ0k",
+            authDomain: "tourappa.firebaseapp.com",
+            databaseURL: "https://tourappa.firebaseio.com",
+            projectId: "tourappa",
+            storageBucket: "tourappa.appspot.com",
+            messagingSenderId: "629540902745"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tour App</title>
+    <meta name="description" content="Personal portfolio of Web Designer and Developer Samir Alibabic">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link to our stylesheet-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://samiralibabic.github.io/portfolio/css/normalize.css">
+
+
+    <!-- Google Font Lato -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://samiralibabic.github.io/portfolio/css/font-mfizz-2.3.0/font-mfizz.css">
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://samiralibabic.github.io/portfolio/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <header id="landing">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div id ="" class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-items" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="#landing"><span class="glyphicon glyphicon-home" aria-label="Home" aria-hidden="true"></span></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="main-menu-items">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#intro">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li id="log-in-button"><a href="#">Log In</a></li>
+                        <li id="log-out-button"><a href="#">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1 id="main-heading">Tour App</h1>
+            <h2 id="main-subheading">autonomous solution to exploring the city</h2>
+            <a href="guide-page.html" class="btn btn-default">TOUR GUIDES WEBSITE</a>
+            <a href="#intro" class="btn btn-default">LEARN MORE</a>
+            <a href="panel.html" class="btn btn-default">BOOK A TOUR</a>
+
+        </div>
+
+    </header>
+    <section id="intro" class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center"><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span><br>Costs</h3>
+            <p>
+                I'm using various technologies to create user-friendly, accessible and well-designed online solutions. Some of the work presented here was created on my journey to become a web developer and some was created for clients who trusted in me.
+            </p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><br>Experience</h3>
+            <p>
+                After graduating from University I started working as an IT-administrator and later as a GIS and database expert in a local civil engineering company. After spending more than 6 years there I've quit to become a developer which has always been my passion.
+            </p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <h3 class="text-center"><span class="glyphicon glyphicon-time" aria-hidden="true"></span><br>Flexibility</h3>
+            <p>
+                I'm currently a student at Free Code Camp and Codecademy, where I sharpen my development skills while I'm looking for a new company to work for in this interesting field. <em></em>
+            </p>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="row">
+        <h3 class="text-center">Contact Us!</h3>
+        <div class="col-xs-10 col-xs-offset-1 text-center">
+            <p>
+
+            </p>
+            <a href="mailto:belissa.baez.28@gmail.com" target="_blank">
+      <span class="glyphicon glyphicon-envelope"></span></a>
+
+        </div><br>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://samiralibabic.github.io/portfolio/js/plugins.js"></script>
+    <script src="https://samiralibabic.github.io/portfolio/js/main.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="ui.js"></script>
+    <script src="firebase.js"></script>
+
+</body>
+
+
+</html>

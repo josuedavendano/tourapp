@@ -1,0 +1,233 @@
+html {
+	box-sizing: border-box;
+	background: #ffc600;
+	font-family: 'helvetica neue';
+	font-size: 20px;
+	font-weight: 200;
+}
+
+body {
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.navbar-brand {
+	position: absolute !important;
+	top: 10px !important;
+	left: 10px !important;
+	z-index: 10000 !important;
+	color: white;
+}
+
+.btn {
+	color: black !important;
+}
+
+.panels {
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+}
+
+.panel {
+	background: #6B0F9C;
+	box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+	color: white;
+	text-align: center;
+	align-items: center;
+	transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+	flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+	background 0.2s;
+	font-size: 20px;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.panel1 {
+	background-image: url(https://www.esbnyc.com/sites/default/files/styles/timely_content_image_large__885x590_/public/tower_lights_obo.jpg?itok=DGq6OlBH);
+}
+
+.panel2 {
+	background-image: url(https://cdn.photographylife.com/wp-content/uploads/2015/06/AJT_1222-Edit.jpg);
+}
+
+.panel3 {
+	background-image: url(https://populous.com/wp-content/uploads/2012/02/YankeeStadium-NewYork-ExteriorGate4Entrance.jpg);
+}
+
+.panel4 {
+	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/worlds-fair-queens-1964-chuck-kuhn.jpg);
+}
+
+.panel5 {
+	background-image: url(https://spoilednyc.com/upload/57a2304b3db5a3e02c7342e1/StatenIslandFerryoijsgiojjoiaeij.png);
+}
+
+button {
+	font-size: 16px;
+	padding: 2px 4px;
+}
+
+>* {
+	margin: 0;
+	width: 100%;
+	transition: transform 0.5s;
+	flex: 1 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	:first-child {
+		transform: translateY(-100%);
+	}
+
+	:last-child {
+		transform: translateY(100%);
+	}
+}
+
+.open-active>*:first-child {
+	transform: translateY(0);
+}
+
+.open-active>*:last-child {
+	transform: translateY(0);
+}
+
+.open {
+	font-size: 40px;
+	flex: 5;
+}
+
+p {
+	text-transform: uppercase;
+	font-family: 'Amatic SC', cursive;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+	font-size: 2em;
+
+	:nth-child(2) {
+		font-size: 4em;
+	}
+}
+
+}
+
+}
+
+.cta {
+	color: white;
+	text-decoration: none;
+}
+
+/*html {*/
+/*  box-sizing: border-box;*/
+/*  background: #ffc600;*/
+/*  font-family: 'helvetica neue';*/
+/*  font-size: 20px;*/
+/*  font-weight: 200;*/
+/*}*/
+
+/*body {*/
+/*  margin: 0;*/
+/*}*/
+
+/**,*/
+/**:before,*/
+/**:after {*/
+/*  box-sizing: inherit;*/
+/*}*/
+
+/*.panels {*/
+/*  min-height: 100vh;*/
+/*  overflow: hidden;*/
+/*  display: flex;*/
+/*}*/
+/*.panels .panel {*/
+/*  background: #6B0F9C;*/
+/*  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  align-items: center;*/
+/*  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;*/
+/*  font-size: 20px;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  flex: 1;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  cursor: pointer;*/
+/*}*/
+/*.panels .panel.panel1 {*/
+/*	background-image: url(https://www.esbnyc.com/sites/default/files/styles/timely_content_image_large__885x590_/public/tower_lights_obo.jpg?itok=DGq6OlBH);*/
+/*}*/
+/*.panels .panel.panel2 {*/
+/*	background-image: url(https://cdn.photographylife.com/wp-content/uploads/2015/06/AJT_1222-Edit.jpg);*/
+/*}*/
+/*.panels .panel.panel3 {*/
+/*	background-image: url(https://populous.com/wp-content/uploads/2012/02/YankeeStadium-NewYork-ExteriorGate4Entrance.jpg);*/
+/*}*/
+/*.panels .panel.panel4 {*/
+/*  	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/worlds-fair-queens-1964-chuck-kuhn.jpg);*/
+/*}*/
+/*.panels .panel.panel5 {*/
+/*  	background-image: url(https://spoilednyc.com/upload/57a2304b3db5a3e02c7342e1/StatenIslandFerryoijsgiojjoiaeij.png);*/
+/*}*/
+/*.panels .panel > * {*/
+/*  margin: 0;*/
+/*  width: 100%;*/
+/*  transition: transform 0.5s;*/
+/*  flex: 1 0 auto;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+/*.panels .panel > *:first-child {*/
+/*  transform: translateY(-100%);*/
+/*}*/
+/*.panels .panel > *:last-child {*/
+/*  transform: translateY(100%);*/
+/*}*/
+/*.panels .panel.open-active > *:first-child {*/
+/*  transform: translateY(0);*/
+/*}*/
+/*.panels .panel.open-active > *:last-child {*/
+/*  transform: translateY(0);*/
+/*}*/
+/*.panels .panel.open {*/
+/*  font-size: 40px;*/
+/*  flex: 5;*/
+/*}*/
+/*.panels .panel p {*/
+/*  text-transform: uppercase;*/
+/*  font-family: 'Amatic SC', cursive;*/
+/*  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);*/
+/*  font-size: 2em;*/
+/*}*/
+/*.panels .panel button{*/
+/*	width: 150px;*/
+/*	height: 80px;*/
+/*	font-family: 'Amatic SC', cursive;*/
+/*	font-size: 1.2em;*/
+/*}*/
+/*.panels .panel p:nth-child(2) {*/
+/*  font-size: 4em;*/
+/*}*/
+
+/*.cta {*/
+/*  color: white;*/
+/*  text-decoration: none;*/
+/*}*/

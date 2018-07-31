@@ -1,0 +1,12 @@
+1. https://www.nytimes.com/2018/05/17/travel/finding-tour-guide-tips.html
+    explanation of 'How to Hire a Quality Private Tour Guide'
+    "Are you looking for a general overview of your destination 
+    where you see popular landmarks,  or do you have a specific interest 
+    like art history, photography, street art or food? "
+2. https://www.amny.com/news/licensed-tour-guide-nyc-1.15535568
+
+3. Our competitors:
+    Tours by Locals
+    
+4. To book tours: 
+    https://codepen.io/lewisvrobinson/full/VeMOKx/

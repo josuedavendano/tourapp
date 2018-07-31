@@ -1,0 +1,569 @@
+html {
+  color: red;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* portfolio color palette (Belize Hole)*/
+
+.color-primary-0 {
+  color: #3499DB
+}
+
+
+/* Main Primary color */
+
+.rgba-primary-0 {
+  color: rgba( 52, 153, 219, 1)
+}
+
+
+/* Main Primary color */
+
+
+/* General setup and overrides */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+html,
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.glyphicon,
+.fa {
+  color: #999999;
+}
+
+
+/* Landing page */
+
+header {
+  background-image: linear-gradient(rgba( 255, 255, 255, 0.4), rgba( 255, 255, 255, 0.4)), url('https://steamusercontent-a.akamaihd.net/ugc/860604416507814832/4DE2B8596A5347D59DB34DF861E183B76CFB2807/');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.navbar,
+.navbar-default {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 1rem 1rem !important;
+}
+
+.navbar-nav > li > a:link,
+.navbar-nav > li > a:visited {
+  color: white !important;
+  text-transform: uppercase !important;
+  font-size: 1.2rem;
+  border-bottom: 1px solid transparent !important;
+  padding: 0;
+  margin: 15px;
+}
+
+.navbar-brand {
+  color: red !important;
+  font-size: 1.2rem;
+}
+
+.navbar-brand .glyphicon {
+  color: white !important;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:active {
+  color: white !important;
+  text-transform: uppercase !important;
+  border-bottom: 1px solid white !important;
+  transition: border-bottom 1s;
+  padding: 0;
+  margin: 15px;
+}
+
+.navbar-scrolled {
+  background-color: #ccccb3 !important;
+  transition: background-color 0.4s;
+  box-shadow: 0 0 10px 2px;
+}
+
+#main-heading {
+  font-size: 8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 80vw;
+}
+
+#main-subheading {
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+
+@media (max-width:1024px) {
+  #main-heading {
+    font-size: 5rem;
+  }
+  #main-subheading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:768px) {
+  #main-subheading {
+    font-size: 3rem;
+  }
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #3499DB !important;
+  transition: all 0.4s;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #3499DB !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+.hero-text-box {
+  position: absolute;
+  text-align: center;
+  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text-box a {
+  position: relative;
+  top: 100px;
+}
+
+.hero-text-box .btn,
+.hero-text-box .btn-default,
+.hero-text-box .btn-default:visited,
+.hero-text-box .btn-default:active:hover,
+.hero-text-box .btn-default:active:focus {
+  color: white;
+  background: none;
+  border: 1px solid;
+  transition: all 0.4s;
+}
+
+.hero-text-box .btn:hover,
+.hero-text-box .btn-default:hover,
+.hero-text-box .btn-default:focus{
+  color: white;
+  border-color: white;
+  background-color: #e0e0d1;
+  transition: all 0.4s;
+}
+
+
+/* Intro section */
+
+#intro .glyphicon {
+  font-size: 50px;
+  margin: 2rem;
+}
+
+#intro h3 {
+  margin: 2rem;
+}
+
+#intro p {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #intro p {
+    font-size: 1.5rem;
+  }
+  #intro h3 {
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #intro p {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  #intro .glyphicon {
+    margin: 0;
+  }
+}
+
+#intro {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+/* Latest projects */
+
+/*#projects {*/
+/*  background-color: #f8f8f8;*/
+/*  padding: 3rem 0;*/
+/*  border-bottom: 1px solid #e7e7e7;*/
+/*}*/
+
+h3 {
+  padding-bottom: 2rem;
+}
+
+/*
+
+
+/* Skills */
+
+/*#skills {*/
+/*  padding: 3rem 0;*/
+/*}*/
+
+/*.fizz {*/
+/*  font-size: 6rem;*/
+/*  color: #ccccff;*/
+/*}*/
+
+/*#skills i {*/
+/*  padding: 0 10px;*/
+/*}*/
+
+/*#skills p {*/
+/*  font-size: 1.8rem;*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+/*  #skills p {*/
+/*    font-size: 1.5rem;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*  #skills p {*/
+/*    font-size: 1.4rem;*/
+/*  }*/
+/*}*/
+
+
+/* Contact */
+
+#contact {
+  color:black;
+  background-color: #ccccb3;
+  padding: 3rem 0;
+}
+
+#contact i,
+#contact .glyphicon,
+#contact img {
+  padding: 10px 10px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#contact p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  #contact p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact p {
+    font-size: 1.4rem;
+  }
+}
+
+#contact .glyphicon,
+#contact .fa {
+  color: #999999;
+}
+
+#contact .glyphicon:hover,
+#contact .fa:hover {
+  color: #999999;
+  transition: all 0.4s;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #black !important;
+    /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
