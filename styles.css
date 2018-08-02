@@ -49,6 +49,9 @@ hr {
   padding: 0;
 }
 
+contact {
+  background-color: blue;
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -188,13 +191,21 @@ header {
   font-size: 2rem;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
 .navbar-nav > li > a:hover,
-.navbar-nav > li > a:active {
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus
+{
   color: white !important;
   text-transform: uppercase !important;
   border-bottom: 1px solid white !important;
   transition: border-bottom 1s;
   padding: 0;
+  background: transparent !important;
   margin: 15px;
 }
 
@@ -205,15 +216,16 @@ header {
 }
 
 #main-heading {
-  font-size: 8rem;
+  font-size: 6.5rem;
   font-weight: 800;
   text-transform: uppercase;
   width: 80vw;
 }
 
 #main-subheading {
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
+  text-transform: uppercase !important;
 }
 
 @media (max-width:1024px) {

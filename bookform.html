@@ -1,0 +1,74 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="bookform.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBC2JOrK12TMk-VwQYuD-gMjp1ozLvVJ0k",
+      authDomain: "tourappa.firebaseapp.com",
+      databaseURL: "https://tourappa.firebaseio.com",
+      projectId: "tourappa",
+      storageBucket: "tourappa.appspot.com",
+      messagingSenderId: "629540902745"
+    };
+    firebase.initializeApp(config);
+  </script>
+</head>
+
+<body>
+  <title>Book Your Tour</title>
+  <style>
+    body {
+      background-image: url("https://cosmic-s3.imgix.net/220bbd70-08f3-11e8-832c-d348f4d107e7-96caf420-084c-11e8-a94c-87aa10029368-lpnyc-hero-1680-945.jpg");
+    }
+  </style>
+  <a class="navbar-brand" href="index.html">
+		<span class="glyphicon glyphicon-home" aria-label="Home" aria-hidden="true"></span>
+	</a>
+
+  <div class="diamond"></div>
+  <div class="form-wrap">
+    <h2 class="mob">Hotel Booking Form</h2>
+    <h3 class="mob">Mobile Version</h3>
+    <h5 class="mob">view on a desktop for the full experience</h5>
+    <div style="color: red;" id="error"></div>
+    <div>
+      <div class="location">
+        <label for="location">LOCATION</label><br/>
+        <input id="location" type="text" name="location" placeholder="New York, NY" /><br/>
+      </div>
+      <div class="guests">
+        <label for="guests">NUMBER OF GUESTS</label><br/><br/>
+        <button class="counter-btn" type="button" id="cnt-down">-</button>
+        <input type="text" id="guestNo" name="guests" value="2" />
+        <button class="counter-btn" type="button" id="cnt-up">+</button>
+      </div>
+      <div class="dates">
+        <div class="arrival">
+          <label for="arrival">ARRIVAL</label><br/>
+          <input id="arrival" name="arrival" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="10/03/2016" />
+        </div>
+        <div class="departure">
+          <label for="departure">DEPARTURE</label><br/>
+          <input id="departure" name="departure" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="05/11/2016" />
+        </div>
+      </div>
+    </div>
+    <button class="btn" type="button">BOOK NOW</button>
+    <div class="linkbox">
+      <div class="links">
+        <div class="origin">
+          <p>Thank you for booking with us! You will receive an email shortly confirming this booking.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="bookform.js"></script>
+</body>
+
+</html>

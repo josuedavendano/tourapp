@@ -147,11 +147,11 @@ body {
 /* Landing page */
 
 header {
-  background-image: linear-gradient(rgba( 255, 255, 255, 0.4), rgba( 255, 255, 255, 0.4)), url('https://78.media.tumblr.com/1da4c9e138b549317a7e851bcc7226bd/tumblr_n4geebkC0T1sq1n6ro1_400.gif');
+  background-image: linear-gradient(rgba( 255, 255, 255, 0.4), rgba( 255, 255, 255, 0.4)), url('http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w');
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  min-height: 500px;
+  height:   10vh;
+  min-height: 50px;
 }
 
 .navbar,
@@ -208,6 +208,7 @@ header {
 #main-subheading {
   font-size: 4.5rem;
   font-weight: 300;
+  
 }
 
 @media (max-width:1024px) {
@@ -319,6 +320,14 @@ header {
   border-bottom: 1px solid #e7e7e7;
 }
 
+#avatar{
+  height: 50px;
+  width: 50px;
+  margin-top: 8px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
 .form-group{
     ;
 }
@@ -336,48 +345,16 @@ h3 {
   padding-bottom: 2rem;
 }
 
-/*
-
-
-/* Skills */
-
-/*#skills {*/
-/*  padding: 3rem 0;*/
-/*}*/
-
-/*.fizz {*/
-/*  font-size: 6rem;*/
-/*  color: #ccccff;*/
-/*}*/
-
-/*#skills i {*/
-/*  padding: 0 10px;*/
-/*}*/
-
-/*#skills p {*/
-/*  font-size: 1.8rem;*/
-/*}*/
-
-/*@media (max-width: 1024px) {*/
-/*  #skills p {*/
-/*    font-size: 1.5rem;*/
-/*  }*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*  #skills p {*/
-/*    font-size: 1.4rem;*/
-/*  }*/
-/*}*/
-
 
 /* Contact */
+
 
 #contact {
   color: white;
   background-color: #ccccb3;
   padding: 3rem 0;
 }
+
 
 #contact i,
 #contact .glyphicon,

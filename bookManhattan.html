@@ -1,6 +1,26 @@
 <head>
-    
+    <title>Meet Our Tour Guides</title>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBC2JOrK12TMk-VwQYuD-gMjp1ozLvVJ0k",
+            authDomain: "tourappa.firebaseapp.com",
+            databaseURL: "https://tourappa.firebaseio.com",
+            projectId: "tourappa",
+            storageBucket: "tourappa.appspot.com",
+            messagingSenderId: "629540902745"
+        };
+        firebase.initializeApp(config);
+    </script> 
+    <link rel="stylesheet" type="text/css" href="book.css">
 </head>
 <body>
-    <h1>Book Manhattan!</h1>
+  <h1 style="color:white;text-align:center">Tour Guides for Manhattan!</h1>
+  <div id="tour-guide-holder">
+    
+  </div>
+   <script src="book.js"></script>
 </body>
+
+

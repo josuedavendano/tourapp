@@ -40,6 +40,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://samiralibabic.github.io/portfolio/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    -->
 </head>
 
 <body>
@@ -48,7 +50,7 @@
   <![endif]-->
     <header id="landing">
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div id ="" class="container-fluid">
+            <div id="" class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-items" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -60,10 +62,20 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="main-menu-items">
                     <ul class="nav navbar-nav">
+
                         <li><a href="#intro">About</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li id="log-in-button"><a href="#">Log In</a></li>
-                        <li id="log-out-button"><a href="#">Log Out</a></li>
+                        <li class="hidden" id="avatar-icon-spot"></li>
+                        <!--<li id="log-in-button"><a href="#">Log In</a>-->
+                        <li class="" id="login_button">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOG IN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" id="log_in_as_tourist">LOG IN AS TOURIST</a></li>
+                                <li><a href="#" id="log_in_as_tour_guide">LOG IN AS TOUR GUIDE</a></li>
+                            </ul>                             
+                        </li>
+                        <!--</li>-->
+                        <li class="" id="logout_button"><a href="#">Log Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -82,19 +94,20 @@
         <div class="col-sm-4 col-md-4 col-lg-4">
             <h3 class="text-center"><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span><br>Costs</h3>
             <p>
-                I'm using various technologies to create user-friendly, accessible and well-designed online solutions. Some of the work presented here was created on my journey to become a web developer and some was created for clients who trusted in me.
+                There are no joining fees. The pricings for your tours are up to you. You automatically get paid once the transaction is successful. We only charge a 3% service fee.
             </p>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4">
             <h3 class="text-center"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><br>Experience</h3>
             <p>
-                After graduating from University I started working as an IT-administrator and later as a GIS and database expert in a local civil engineering company. After spending more than 6 years there I've quit to become a developer which has always been my passion.
+                The only requirement to join us is to have an NYC tour guide license. This way tourists know that they are being shown NYC by serious and experienced tour guides.
             </p>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4">
             <h3 class="text-center"><span class="glyphicon glyphicon-time" aria-hidden="true"></span><br>Flexibility</h3>
             <p>
-                I'm currently a student at Free Code Camp and Codecademy, where I sharpen my development skills while I'm looking for a new company to work for in this interesting field. <em></em>
+                We know New Yorkers are constantly hustling, so you set up your schedule! You also determine the maximum amount of people you will take on your tour.
+                <em></em>
             </p>
         </div>
     </section>
@@ -108,6 +121,7 @@
             </p>
             <a href="mailto:belissa.baez.28@gmail.com" target="_blank">
       <span class="glyphicon glyphicon-envelope"></span></a>
+      <h4 class= "text-center">This page was founded by Kimberley Rangel, Belissa Baez, & Josue Avendano </h4>
 
         </div><br>
     </footer>

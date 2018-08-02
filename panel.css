@@ -52,6 +52,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	cursor: pointer;
+	font-family:verdana;
 }
 
 .panel1 {
