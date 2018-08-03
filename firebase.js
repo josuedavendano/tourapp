@@ -37,6 +37,7 @@ function signInWithGoogle(type) {
     console.log('sign in')
     auth.signInWithPopup(provider)
         .then(function(result) {
+            console.log('result')
             // // This gives you a Google Access Token.
             // var token = result.credential.accessToken
             // // The signed-in user info.
@@ -54,7 +55,7 @@ function signInWithGoogle(type) {
             // addUserToDatabase(userInfo, userId, type)
             // updateSignIn(avatarSrc)
         })
-        .catch(err => console.log())
+        .catch(err => console.log(err))
 }
 
 
