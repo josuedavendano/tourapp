@@ -97,6 +97,12 @@ textarea {
   padding: 0.2em 0;
 }
 
+.avatar-image{
+  margin-top: -8px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -147,11 +153,13 @@ body {
 /* Landing page */
 
 header {
-  background-image: linear-gradient(rgba( 255, 255, 255, 0.4), rgba( 255, 255, 255, 0.4)), url('http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w');
+  background-image: linear-gradient(rgba( 255, 255, 255, 0.4), rgba( 255, 255, 255, 0.4));
+  /*url('http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w');*/
   background-size: cover;
   background-position: center;
-  height:   10vh;
-  min-height: 50px;
+  /*height:   15vh;*/
+  height: 60px;
+  min-height: 60px;
 }
 
 .navbar,
@@ -180,6 +188,14 @@ header {
   color: white !important;
   margin-left: 1rem;
   font-size: 2rem;
+}
+
+.navbar-brand {
+	position: absolute !important;
+	top: 10px !important;
+	left: 10px !important;
+	z-index: 10000 !important;
+	color: white;
 }
 
 .navbar-nav > li > a:hover,
@@ -314,10 +330,49 @@ header {
   }
 }
 
+.bgImage {
+   background-repeat: fill;
+  background-position: center;
+  background-size: auto 100vh;
+  /*background-size: cover;*/
+  background-image: url("http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w");
+}
+
 #intro {
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #e7e7e7;
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: auto 100vh;*/
+  /*background-size: cover;*/
+  /*background-image: url("http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w");*/
+  /*opacity: .99;*/
+  width: 100%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: auto 100vh;*/
+  background-size: cover;
+  background-image: url("http://static1.squarespace.com/static/561a4b41e4b01839b1be86fe/561a534ee4b0797ad1602df2/58853bb6e58c626eda05ac11/1485522015526/037+NYC+Skyline+Timelapse+-+Zygmunt+Spray.gif?format=1000w");
+  /*opacity: .99;*/
+  /*width: 100%;*/
+}
+
+.pull-up {
+  margin-top: -10%;
+}
+
+#error{
+
+  color: black !important;
+  /*min-height: 100vh;*/
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  /*flex-direction: column-reverse;*/
+  justify-content: center;
+  align-items: center;
+  
 }
 
 #avatar{
@@ -328,9 +383,10 @@ header {
   justify-content: center;
 }
 
-.form-group{
-    ;
+.btn-lg{
+  padding:20px;
 }
+
 
 
 /* Latest projects */
@@ -343,53 +399,6 @@ header {
 
 h3 {
   padding-bottom: 2rem;
-}
-
-
-/* Contact */
-
-
-#contact {
-  color: white;
-  background-color: #ccccb3;
-  padding: 3rem 0;
-}
-
-
-#contact i,
-#contact .glyphicon,
-#contact img {
-  padding: 10px 10px;
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-#contact p {
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
-}
-
-@media (max-width: 1024px) {
-  #contact p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  #contact p {
-    font-size: 1.4rem;
-  }
-}
-
-#contact .glyphicon,
-#contact .fa {
-  color: #999999;
-}
-
-#contact .glyphicon:hover,
-#contact .fa:hover {
-  color: #999999;
-  transition: all 0.4s;
 }
 
 

@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+}
 .snip1336 {
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
@@ -100,4 +103,11 @@ body {
 #tour-guide-holder {
   width: 75%;
   margin: 0 auto;
+}
+.navbar-brand {
+	position: absolute !important;
+	top: 10px !important;
+	left: 10px !important;
+	z-index: 10000 !important;
+	color: white;
 }

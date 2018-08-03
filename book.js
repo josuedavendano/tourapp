@@ -51,9 +51,9 @@ function displaySingleTourGuide(guide){
     <img src="${bgImg}" alt="sample74" />
     <figcaption>
       <img src="${profImg}" alt="profile-sample2" class="profile" />
-      <h2>${guide.name}<span>Tour Guide</span></h2>
+      <h2>${guide.name.split("-")[0]}<span>Tour Guide</span></h2>
       <p>${descrip}</p>
-      <a href="bookform.html" class="info">Book A Tour With Me!</a>
+      <a href="bookform.html?guideID=${guide.userID}&guide_name=${guide.name}" class="info">Book A Tour With Me!</a>
     </figcaption>
   </figure>  
   `
