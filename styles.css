@@ -217,9 +217,10 @@ header {
 
 #main-heading {
   font-size: 6.5rem;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
   width: 80vw;
+  font-style: italic;
 }
 
 #main-subheading {
