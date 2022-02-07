@@ -1,6 +1,6 @@
 # tourgo 
 MVP for a Tour App which helps connect tourists and guides in New York City. 
-Created by Josue Avendano, Kymberly Rangel, Beliza Baez
+Created by Josue Avendano, Kymberly Rangel, Belissa Baez
 
 In this project we have incorporated a non-relational database and Google authentication services through Firebase.
 The purpose of this project is to increase autonomy for tour guides and people seeking tours by creating an environment that
